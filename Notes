@@ -1,0 +1,20 @@
+
+6/1/2011
+
+DC:
+
+Progress:
+- simple 1 page map/css/html which does auto-map-marker-placement when user types.
+
+Todo:
+DONE - Separate js from page (10 min)
+DONE - Separate css from page (10 min)
+DONE - Test that simple functionality still works (10 min)
+- Check in project structure in git and push to remote (10 min)
+
+- Different images for map markers depending on donorschoose project categorization (30 min)
+- If the search contains more than 10 results, put them in there, but set a limit (30 min)
+- Have an overlay page pop up when user hovers over a map marker (TBD - needs research)
+- Beautify the map page (TBD - REALLY Needs research)
+
+6/30/2011 -Hand in!
