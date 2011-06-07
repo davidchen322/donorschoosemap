@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="css/donorschoose.css" />
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<!-- include the overlay tools jquery plugin -->
+<script src="http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js"></script>
 <script type="text/javascript" src="js/donorschoose.js"></script>
 </head>
 <body>
   <h1>School Project Search</h1>
   <input type="text" class='search_input' align='top'/>
-  <hr/>
-  <div id="map_canvas" style="width:80%; height:80%"></div>
+  <hr/>   
+  <div id="map_canvas" style="width:60%; height:80%"></div>
+  <div id="overlay">
+     <div id="show_project">
+		<p id="project_title"></p>
+		<img id="api_img" src="images/donorschoose_org.gif" style="width:100%; height:100%"/>
+	</div>
+  </div>
+  <span id="X"></span>
+  <span id="Y"></span>
 </body>
 </html>
